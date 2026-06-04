@@ -912,7 +912,7 @@ class _GoalListCard extends StatelessWidget {
                       ClipRRect(
                         borderRadius: BorderRadius.circular(999),
                         child: LinearProgressIndicator(
-                          minHeight: 6,dc
+                          minHeight: 6,
                           value: goal.progress,
                           backgroundColor:
                               isDarkTheme ? darkCardSoft : lightAqua,
